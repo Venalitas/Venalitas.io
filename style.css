@@ -8,23 +8,21 @@ body {
   background-color: #a1ebff;
 }
 
-.header-container button {
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  flex: 1;
-}
-
-.header-container button:hover {
-  background-color: #a1bfff;
-}
-
-.DropDownButton {
+.header-container .DropDownButton {
   background-color: #a1bfff;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   flex: 1;
+  
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.header-container DropDownButton:hover {
+  background-color: #a1bfff;
 }
 
 .DropDownButtonAboutUs {
