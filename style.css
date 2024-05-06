@@ -25,3 +25,8 @@ body {
   display: none;
 }
 
+#AboutUs:hover .dropdown-container {
+  backgroud-color: red;
+  display: block;  
+}
+
