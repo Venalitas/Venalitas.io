@@ -18,6 +18,7 @@ body {
 }
 
 .DropButtonContainer {
+  flex: 1;
   display: none;
 }
 
