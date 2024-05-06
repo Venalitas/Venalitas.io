@@ -17,9 +17,12 @@ body {
   flex: 1;
 }
 
-.header-container DropButton {
-  display: none;
+.header-container DropButtonContainer {
   flex: 1;
+}
+
+.header-container DropButton:hover {
+  
 }
 
 .header-container button:hover {
