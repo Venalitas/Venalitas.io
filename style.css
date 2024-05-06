@@ -8,7 +8,12 @@ body {
   background-color: #a1ebff;
 }
 
-.header-container .DropDownButton {
+.DropDown {
+  position: relative;
+  display: inline-block;
+}
+
+.DropDownButton {
   background-color: #a1bfff;
   padding: 16px;
   font-size: 16px;
@@ -18,12 +23,19 @@ body {
   flex: 1;
 }
 
-.header-container .DropDownButton:hover {
+.DropDownButton:hover {
   background-color: white; /* Optional: Maintain hover color */
 }
 
-.DropDownButton .DropDownButtonContent {
-  position: relative;
-  down: 16px;
+.DropDownButtonContent {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  z-index:1;
+}
+
+.DropDownButtonContentItem {
+  display: block;
 }
 
