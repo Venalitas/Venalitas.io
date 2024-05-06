@@ -17,7 +17,7 @@ body {
 }
 
 .header-container .DropDownButton:hover {
-  background-color: #a1bfff;
+  background-color: #e6edfc;
 }
 
 .DropDownButtonAboutUs {
@@ -30,6 +30,5 @@ body {
 }
 
 .DropDownButton:hover .DropDownButtonAboutUs {
-  background-color: #a1bfff;
   display: block; /* Shows the dropdown menu on hover */
 }
