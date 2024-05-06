@@ -23,7 +23,7 @@ body {
   flex: 1;
 }
 
-.DropDownButton:hover {
+.DropDown .DropDownButton:hover {
   background-color: white; /* Optional: Maintain hover color */
 }
 
@@ -37,5 +37,13 @@ body {
 
 .DropDownButtonContentItem {
   display: block;
+}
+
+.DropDown .DropDownButtonContent {
+  display: block;
+}
+
+.DropDown .DropDownButtonContentItem {
+  color: white;
 }
 
