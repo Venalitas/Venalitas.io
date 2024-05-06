@@ -34,15 +34,12 @@ body {
   z-index:1;
 }
 
-.DropDownButtonContent .DropDownButtonContentItem {
-  color:black;
-}
-
 .DropDown:hover .DropDownButtonContent {
   display: block;
 }
 
 .DropDown:hover .DropDownButtonContentItem {
-  color: yellow;
+  color: black;
+  font-size: 16px;
 }
 
