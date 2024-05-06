@@ -24,10 +24,6 @@ body {
   flex: 1;
 }
 
-.DropDown .DropDownButton {
-  width: 100%:
-}
-
 .DropDown .DropDownButton:hover {
   background-color: white; /* Optional: Maintain hover color */
 }
