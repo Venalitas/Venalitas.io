@@ -8,16 +8,37 @@ body {
   background-color: #a1ebff;
 }
 
-.header-container button {
+.header-container .DropDownButton {
   background-color: #a1bfff;
+  padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  padding: 10px 20px;
   flex: 1;
 }
 
-.header-container button:hover {
-  background-color: #e6edfc;
+.header-container .DropDownButton:hover {
+  background-color: #a1bfff; /* Optional: Maintain hover color */
 }
 
+.DropDownButtonAboutUs {
+  display: none; /* Initially hide the dropdown menu */
+  position: absolute; /* Positions the dropdown menu relative to the main button */
+  background-color: #f1f1f1;
+  min-width: 160px; /* Minimum width for the dropdown menu */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Subtle shadow for the dropdown menu */
+  z-index: 1; /* Ensures the dropdown menu appears above other elements */
+}
+
+.DropDownButton:hover .DropDownButtonAboutUs {
+  display: block; /* Shows the dropdown menu on hover */
+}
+
+.DropDownDropButton {  /* Styles for dropdown options (buttons) */
+  background-color: #f1f1f1;
+  border: none;
+  padding: 8px 16px;
+  text-align: left;
+  cursor: pointer;
+  /* Consider adding hover styles for the dropdown options if needed */
+}
