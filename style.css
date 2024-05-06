@@ -17,10 +17,6 @@ body {
   flex: 1;
 }
 
-#AboutUs:hover DropButtonContainer {
-  display: block;
-}
-
 .header-container DropButtonContainer {
   display: none;
 }
