@@ -18,7 +18,6 @@ body {
   
   padding: 10px 20px;
   border: 1px solid #ccc;
-  flex: 1;
 }
 
 .header-container DropDownButton:hover {
