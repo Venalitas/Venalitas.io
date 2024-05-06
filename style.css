@@ -21,15 +21,3 @@ body {
   background-color: #e6edfc;
 }
 
-.DropDownButtonAboutUs {
-  display: none;          /* Initially hide the dropdown menu */
-  position: absolute;     /* Positions the dropdown menu relative to the main button */
-  background-color: #f1f1f1;
-  min-width: 160px; /* Minimum width for the dropdown menu */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Subtle shadow for the dropdown menu */
-  z-index: 1; /* Ensures the dropdown menu appears above other elements */
-}
-
-.header-container button:hover .DropDownButtonAboutUs {
-  display: block; /* Shows the dropdown menu on hover */
-}
