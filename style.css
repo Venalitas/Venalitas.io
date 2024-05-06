@@ -39,11 +39,11 @@ body {
   color:black;
 }
 
-.DropDown .DropDownButtonContent {
+.DropDown:hover .DropDownButtonContent {
   display: block;
 }
 
-.DropDown .DropDownButtonContentItem:hover {
+.DropDown:hover .DropDownButtonContentItem {
   color: yellow;
 }
 
