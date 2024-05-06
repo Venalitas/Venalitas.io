@@ -2,8 +2,16 @@ body {
   background-color: #b0efff;
 }
 
+#HomeVenalitas {
+  text-stroke: 2px white;
+  text-stroke-linecap: round;
+  text-stroke-linejoin: round;
+}
+
 img {
   display: flex;
   max-width: 100%;
   height: auto;
 }
+
+
