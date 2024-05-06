@@ -17,3 +17,20 @@ body {
 .header-container button:hover {
   background-color: #a1bfff;
 }
+
+.DropDownButton {
+  background-color: #a1bfff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.DropDownButtonAboutUs {
+  display: none;          /* Initially hide the dropdown menu */
+  position: absolute;     /* Positions the dropdown menu relative to the main button */
+  background-color: #f1f1f1;
+  min-width: 160px; /* Minimum width for the dropdown menu */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Subtle shadow for the dropdown menu */
+  z-index: 1; /* Ensures the dropdown menu appears above other elements */
+}
