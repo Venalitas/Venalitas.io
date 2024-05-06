@@ -21,12 +21,3 @@ body {
   background-color: #e6edfc;
 }
 
-.dropdown-container button {
-  display: none;
-}
-
-#AboutUs:hover .dropdown-container {
-  backgroud-color: red;
-  display: block;  
-}
-
