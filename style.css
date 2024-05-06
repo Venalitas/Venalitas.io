@@ -8,7 +8,7 @@ body {
   background-color: #a1ebff;
 }
 
-.header-container .DropDownButton {
+.header-container button {
   background-color: #a1bfff;
   font-size: 16px;
   border: none;
@@ -17,7 +17,7 @@ body {
   flex: 1;
 }
 
-.header-container .DropDownButton:hover {
+.header-container button:hover {
   background-color: #e6edfc;
 }
 
@@ -30,6 +30,6 @@ body {
   z-index: 1; /* Ensures the dropdown menu appears above other elements */
 }
 
-.DropDownButton:hover .DropDownButtonAboutUs {
+.header-container button:hover .DropDownButtonAboutUs {
   display: block; /* Shows the dropdown menu on hover */
 }
