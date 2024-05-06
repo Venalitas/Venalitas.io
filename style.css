@@ -3,12 +3,9 @@ body {
 }
 
 #HomeVenalitas {
-  cursor: pointer;
-  padding: 1rem;
-}
-
-#HomeVenalitas:hover {
-  background-color: #a1bfff;
+  text-stroke: 2px white;
+  text-stroke-linecap: round;
+  text-stroke-linejoin: round;
 }
 
 .header-container {
