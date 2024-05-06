@@ -17,6 +17,10 @@ body {
   flex: 1;
 }
 
+.header-container DropButton {
+  flex: 1;
+}
+
 .header-container button:hover {
   background-color: #e6edfc;
 }
