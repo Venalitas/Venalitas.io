@@ -17,7 +17,7 @@ body {
   flex: 1;
 }
 
-#AboutUs:hover .header-container DropButtonContainer {
+#AboutUs:hover DropButtonContainer {
   display: block;
 }
 
