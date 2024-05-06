@@ -27,16 +27,14 @@ body {
   background-color: white; /* Optional: Maintain hover color */
 }
 
-.DropDownButtonContentItem {
+.DropDownButtonContent {
   display: none;
   position: absolute;
-  color:black;
   min-width: 160px;
   z-index:1;
 }
 
 .DropDownButtonContent .DropDownButtonContentItem {
-  display: block;
   color:black;
 }
 
