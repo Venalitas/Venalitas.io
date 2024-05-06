@@ -21,3 +21,7 @@ body {
   background-color: #e6edfc;
 }
 
+.dropdown-container button {
+  display: none;
+}
+
