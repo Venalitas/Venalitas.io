@@ -34,3 +34,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Subtle shadow for the dropdown menu */
   z-index: 1; /* Ensures the dropdown menu appears above other elements */
 }
+
+.DropDownButton:hover .DropDownButtonAboutUs {
+  display: block; /* Shows the dropdown menu on hover */
+}
