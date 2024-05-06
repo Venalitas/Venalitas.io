@@ -23,7 +23,6 @@ body {
 }
 
 .DropDownButton .DropDownButtonContent {
-  display: none;
   position: absolute;
 }
 
