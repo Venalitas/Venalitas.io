@@ -11,4 +11,5 @@ body {
 .header-container "About me" {
   padding: 10px 20px;
   border: 1px solid #ccc;
+  flex: 1;
 }
