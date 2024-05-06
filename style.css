@@ -11,6 +11,7 @@ body {
 .header-container button {
   padding: 10px 20px;
   border: 1px solid #ccc;
+  opacity: 0.8;
   flex: 1;
 }
 
