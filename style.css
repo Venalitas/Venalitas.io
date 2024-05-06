@@ -11,8 +11,8 @@ body {
 .header-container button {
   padding: 10px 20px;
   border: 1px solid #ccc;
-  opacity: 0.3;
   flex: 1;
+  opacity: 0.5;
 }
 
 .header-container button:hover {
