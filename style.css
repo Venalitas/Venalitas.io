@@ -8,12 +8,12 @@ body {
   background-color: #a1ebff;
 }
 
-.header-container "About me" {
+.header-container button {
   padding: 10px 20px;
   border: 1px solid #ccc;
   flex: 1;
 }
 
-.header-container Goals {
-  flex": 1;
+.header-container button:hover {
+  background-color: #a1bfff;
 }
