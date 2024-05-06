@@ -3,7 +3,6 @@ body {
 }
 
 .header-container {
-  display: flex;
   width: 100%;
   background-color: #a1ebff;
 }
@@ -20,7 +19,7 @@ body {
   border: 2px;
   border-color: black;
   cursor: pointer;
-  flex: 1;
+  width: 25%;
 }
 
 .DropDown .DropDownButton:hover {
