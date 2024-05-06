@@ -22,7 +22,8 @@ body {
   background-color: white; /* Optional: Maintain hover color */
 }
 
-.header-container .DropDownButton .DropDownButtonContentItem {
+.DropDownButton .DropDownButtonContent {
   display: none;
+  position: absolute;
 }
 
