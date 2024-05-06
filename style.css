@@ -7,6 +7,10 @@ body {
   padding: 1rem;
 }
 
+#HomeVenalitas:hover {
+  background-color: #a1bfff;
+}
+
 .header-container {
   display: flex;
   width: 100%;
