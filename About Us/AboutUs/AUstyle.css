@@ -3,6 +3,7 @@ body {
 }
 
 .AU-container {
+  width: 100%;
   design: flex;
 }
 
