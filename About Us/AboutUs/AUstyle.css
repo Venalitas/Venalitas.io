@@ -6,9 +6,3 @@ body {
   display: grid;
   grid-template-columns: 25% 75%;
 }
-
-.AU-container > * {
-  border: 2px red;
-  padding: 10px; /* space inside the border */
-  margin: 20px; /* space around the border */
-}
