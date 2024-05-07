@@ -4,14 +4,13 @@ body {
 
 .AU-containter {
   display: flex;
+  flex-direction: row;
 }
 
 .AU-item-photo {
-  max-width: 20%;
   flex: 0 0 20%;
 }
 
 .AU-item-info {
   flex: 0 0 80%;
-  max-width: 80%
 }
