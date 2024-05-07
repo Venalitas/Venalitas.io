@@ -13,9 +13,9 @@ body {
 }
 
 .AU-item-photo {
-  width: 25%;
+  flex: 0 0 25%;
 }
 
 .AU-item-info {
-  width: 75%;
+  flex: 0 0 75%;
 }
