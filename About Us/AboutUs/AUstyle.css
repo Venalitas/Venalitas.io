@@ -6,6 +6,10 @@ body {
   display: flex;
 }
 
+.AU-container > * {
+  display: flex;
+}
+
 .AU-item-photo {
   max-width: 20%
 }
