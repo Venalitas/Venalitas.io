@@ -2,10 +2,6 @@ body {
   background-color: #b0efff;
 }
 
-.AU-container {
-  display: flex;
-}
-
 .AU-container > * {
   flex: 1;
   width: 50%
@@ -14,12 +10,10 @@ body {
   margin: 20px; /* space around the border */
 }
 
-.AU-item {
-  border: 2px green;
-  padding: 10px; /* space inside the border */
-  margin: 20px; /* space around the border */
+#AU-item-photo {
+  width: 25%;
 }
 
-.AU-item.ellipsis {
-  overflow: ellispsis;
+#AU-item-information {
+  width: 75%;
 }
