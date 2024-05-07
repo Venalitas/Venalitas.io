@@ -12,10 +12,10 @@ body {
   margin: 20px; /* space around the border */
 }
 
-#AU-item-photo {
+.AU-item-photo {
   width: 25%;
 }
 
-#AU-item-information {
+.AU-item-info {
   width: 75%;
 }
