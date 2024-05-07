@@ -41,7 +41,7 @@ body {
   display: block;
   color: black;
   background-color: #a1bfff;
-  padding: 16px;
+  padding: 5px;
   font-size: 16px;
   min-width: 150px;
 }
@@ -49,8 +49,4 @@ body {
 .DropDown .DropDownButtonContentItem:hover {
   background-color: white;
   cursor: pointer;
-}
-
-.DropDownButtonContentItem {
-  border-width: 2px 10px 2px 10px;
 }
