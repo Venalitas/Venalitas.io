@@ -12,6 +12,6 @@ body {
 }
 
 .AU-item-info {
-  flex: 1;
+  flex: 0 0 80%;
   max-width: 80%
 }
