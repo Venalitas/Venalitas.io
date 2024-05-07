@@ -20,6 +20,12 @@ body {
   margin: 20px; /* space around the border */
 }
 
+.AU-item {
+  border: 2px green;
+  padding: 10px; /* space inside the border */
+  margin: 20px; /* space around the border */
+}
+
 .AU-item.ellipsis {
   overflow: ellispsis;
 }
