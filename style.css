@@ -40,9 +40,14 @@ body {
 .DropDown:hover .DropDownButtonContentItem {
   display: block;
   color: black;
-  background-color: white;
+  background-color: #a1bfff;
   border: 10px;
   padding: 16px;
   font-size: 16px;
+}
+
+.DropDown .DropDownButtonContentItem:hover {
+  background-color: white;
+  cursor: pointer;
 }
 
