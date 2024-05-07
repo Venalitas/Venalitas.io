@@ -7,7 +7,7 @@ body {
 }
 
 .AU-item-photo {
-  max-width: 20%
+  max-width: 20%;
   flex: 0 0 20%;
 }
 
