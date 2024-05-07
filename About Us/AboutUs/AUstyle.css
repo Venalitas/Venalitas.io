@@ -3,19 +3,12 @@ body {
 }
 
 .AU-containter {
-  display: flex
+  display: grid;
+  grid-template-columns: 25% 75%;
 }
 
 .AU-container > * {
   border: 2px red;
   padding: 10px; /* space inside the border */
   margin: 20px; /* space around the border */
-}
-
-.AU-item-photo {
-  flex: 0 0 25%;
-}
-
-.AU-item-info {
-  flex: 0 0 75%;
 }
