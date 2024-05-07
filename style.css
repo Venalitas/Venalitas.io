@@ -17,8 +17,7 @@ body {
   background-color: #a1bfff;
   padding: 16px;
   font-size: 16px;
-  border: 2px;
-  border-color: black;
+  border: 10px;
   cursor: pointer;
   flex: 1;
 }
