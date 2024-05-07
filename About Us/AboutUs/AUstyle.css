@@ -9,6 +9,9 @@ body {
 .AU-container > * {
   flex: 1;
   width: 50%
+  border: 2px red;
+  padding: 10px; /* space inside the border */
+  margin: 20px; /* space around the border */
 }
 
 .AUUnder-container {
@@ -17,6 +20,6 @@ body {
   margin: 20px; /* space around the border */
 }
 
-.AU-item {
-  box-sizing: border-box;
+.AU-item.ellipsis {
+  overflow: ellispsis;
 }
