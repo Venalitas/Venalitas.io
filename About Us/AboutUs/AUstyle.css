@@ -2,11 +2,7 @@ body {
   background-color: #b0efff;
 }
 
-.AU-containter {
-  display: flex;
-}
-
-.AU-container > * {
+.AU-container {
   display: flex;
 }
 
