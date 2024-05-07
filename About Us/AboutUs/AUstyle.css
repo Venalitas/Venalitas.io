@@ -6,3 +6,7 @@ body {
   display: grid;
   grid-template-columns: 25% 75%;
 }
+
+.AU-item {
+  flex-wrap: wrap;
+}
