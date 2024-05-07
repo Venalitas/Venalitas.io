@@ -6,6 +6,8 @@ body {
   width: 100%;
   display: flex;
   background-color: #a1ebff;
+  border: 10px;
+  padding: 16px;
 }
 
 .DropDown {
@@ -16,8 +18,6 @@ body {
 .DropDownButton {
   background-color: #a1bfff;
   font-size: 16px;
-  border: 10px;
-  padding: 16px;
   cursor: pointer;
   flex: 1;
 }
