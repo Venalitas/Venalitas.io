@@ -14,6 +14,10 @@ body {
   flex: 1;
 }
 
+#DropDownButtonAboutUs {
+  width: 100%
+}
+
 .DropDownButton {
   background-color: #a1bfff;
   font-size: 16px;
