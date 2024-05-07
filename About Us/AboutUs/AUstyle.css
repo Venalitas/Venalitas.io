@@ -3,10 +3,9 @@ body {
 }
 
 .AU-container {
-  width: 100%;
-  design: flex;
+  display: flex;
 }
 
-.AUUnder-container {
+.AU-container .AUUnder-container {
   flex: 1;
 }
