@@ -7,7 +7,7 @@ body {
 }
 
 .AU-item-photo {
-  display: 0 0 20%;
+  flex: 0 0 20%;
 }
 
 .AU-item-info {
