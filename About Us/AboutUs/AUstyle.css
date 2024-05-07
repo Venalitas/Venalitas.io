@@ -7,11 +7,9 @@ body {
 }
 
 .AU-item-photo {
-  flex: 1;
   max-width: 20%
 }
 
 .AU-item-info {
-  flex: 1;
   max-width: 70%;
 }
