@@ -3,10 +3,13 @@ body {
 }
 
 .AU-containter {
-  display: grid;
-  grid-template-columns: 25% 75%;
+  display: flex;
 }
 
-.AU-item {
-  flex-wrap: wrap;
+.AU-item-photo {
+  display: 0 0 20%;
+}
+
+.AU-item-info {
+  flex: 1;
 }
