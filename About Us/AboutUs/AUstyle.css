@@ -6,7 +6,11 @@ body {
   display: flex;
 }
 
-.AU-container .AUUnder-container {
+.AU-container > * {
   flex: 1;
   width: 50%
+}
+
+.AU-item {
+  box-sizing: border-box;
 }
