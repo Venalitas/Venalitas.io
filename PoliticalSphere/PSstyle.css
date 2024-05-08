@@ -23,12 +23,14 @@ img {
 .ButtonBar {
   justify-content: center;
   max-height: 30px;
-  min-width: 450px;
   display: flex;
 }
 
 .ContainerSortButton {
-  min-width: 15%;
+  min-width: 200px;
+  border: none;
+  background-color: #cff3fc;
+  cursor: pointer;
 }
 
 .Container {
