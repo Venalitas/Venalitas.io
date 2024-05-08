@@ -34,7 +34,7 @@ img {
 }
 
 .item-text {
-  flex: 0 0 85%;
+  flex: 1;
   border: 10px;
   padding: 16px;
   border: 2px dashed black;
