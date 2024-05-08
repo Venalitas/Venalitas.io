@@ -1,3 +1,3 @@
 function HideJPG() { 
-  document.getElementById("HideButton").innerHTML = "JavaScript!";
+  document.getElementById("container-header-text").innerHTML = "JavaScript!";
 }
