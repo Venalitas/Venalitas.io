@@ -23,7 +23,7 @@ img {
   justify-content: center;
   max-height: 40px;
   display: flex;
-  text-align: center
+  text-align: center;
   border: 2px solid red;
 }
 
