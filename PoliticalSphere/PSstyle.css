@@ -27,9 +27,10 @@ img {
 }
 
 .ContainerSortButton {
-  width: 250px;
   border: none;
+  background-size: 600px;
   background-color: #cff3fc;
+  padding: 10px;
   cursor: pointer;
 }
 
