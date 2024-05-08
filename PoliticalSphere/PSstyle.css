@@ -24,6 +24,7 @@ img {
   justify-content: center;
   max-height: 30px;
   display: flex;
+  margin: none;
 }
 
 .ContainerSortButton {
