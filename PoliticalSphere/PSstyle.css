@@ -17,6 +17,10 @@ img {
 
 .ButtonBar {
   display: flex;
+  text-align: center;
+  front-weight: 300px;
+  border: 10px;
+  min-width: 150px;
 }
 
 .ContainerSortButton {
