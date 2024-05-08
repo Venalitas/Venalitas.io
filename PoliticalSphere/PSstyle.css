@@ -30,7 +30,8 @@ img {
 .ContainerSortButton {
   border: none;
   background-color: #cff3fc;
-  width: 100px;
+  min-width: 100px;
+  flex: 1;
   padding: 10px;
   cursor: pointer;
 }
