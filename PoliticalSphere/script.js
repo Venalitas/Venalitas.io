@@ -15,6 +15,7 @@ sortButton.addEventListener("click", SortingList);
 
 function SortingList() {
   const listItems = list.querySelectorAll(".ItemContainer .ItemTextName");
+  console.log("ListItems: ", listItems);
   const itemsArray = Array.from(listItems);
 
   function compareNames (a, b) {
