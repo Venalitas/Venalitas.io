@@ -31,8 +31,8 @@ img {
   flex: 0 0 15%;
   border: none;
   padding: none;
-  max-width: 150px;
-  max-hight: 150px;  
+  max-width: 180px;
+  max-height: 180px;  
 }
 
 .item-text {
