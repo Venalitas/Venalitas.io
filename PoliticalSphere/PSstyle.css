@@ -36,7 +36,13 @@ img {
   object-fit: contain;
 }
 
-.item-text {
+.item-text-name {
+  flex: 1;
+  border: 10px;
+  padding: 16px;
+}
+
+.item-text-info {
   flex: 1;
   border: 10px;
   padding: 16px;
