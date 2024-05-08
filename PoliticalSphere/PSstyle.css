@@ -29,7 +29,6 @@ img {
 }
 
 .ItemPhoto {
-  flex: 0 0 15%;
   border: none;
   padding: none;
   width: 180px;
