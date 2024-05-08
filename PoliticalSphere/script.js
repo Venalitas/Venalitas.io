@@ -1,3 +1,4 @@
-function HideJPG() { 
-  document.getElementById("container-header-text").innerHTML = "JavaScript!";
+function ButtonHideJPG() {
+  const image = document.getElementById("14SAZalesshema");
+  image.style.display = "none";
 }
