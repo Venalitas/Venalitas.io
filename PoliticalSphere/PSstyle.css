@@ -41,14 +41,20 @@ img {
   border: 10px;
   padding: 16px;
   border: 2px dashed black;
+  display: flex;
 }
 
 .ItemTextName {
-  display: block;
+  flex: 1;
   font-weight: bold;
   font-size: 20px;
   border: 10px;
   padding: 16px;
+}
+
+.ItemTextParty {
+  display: block;
+  flex: 1;
 }
 
 .ItemTextInfo {
