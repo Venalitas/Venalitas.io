@@ -51,13 +51,13 @@ img {
 }
 
 .ItemTextName {
-  flex: 1;
+  flex: 0 0 15%;
   font-weight: bold;
   font-size: 20px;
 }
 
 .ItemTextParty {
-  flex: 1;
+  flex: 0 0 15%;
   font-weight: bold;
   font-size: 20px;
 }
