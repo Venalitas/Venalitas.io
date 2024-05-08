@@ -9,7 +9,7 @@ img {
 }
 
 .container-header {
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   font-weight: bold;
   border: 2px solid black;
