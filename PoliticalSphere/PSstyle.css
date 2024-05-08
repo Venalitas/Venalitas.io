@@ -22,7 +22,7 @@ img {
 
 .ButtonBar {
   justify-content: center;
-  max-height: 100px;
+  max-height: 40px;
   border: 10px dotted red;
   min-width: 450px;
   display: flex;
