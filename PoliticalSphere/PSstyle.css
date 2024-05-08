@@ -44,17 +44,22 @@ img {
   display: flex;
 }
 
-.ItemTextName {
-  flex: 1;
-  font-weight: bold;
-  font-size: 20px;
+.ItemTextHeader {
+  display: flex;
   border: 10px;
   padding: 16px;
 }
 
-.ItemTextParty {
-  display: block;
+.ItemTextName {
   flex: 1;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ItemTextParty {
+  flex: 1;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .ItemTextInfo {
