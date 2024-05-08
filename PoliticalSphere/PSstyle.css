@@ -25,10 +25,11 @@ img {
   front-height: 300px;
   border: 10px dotted red;
   min-width: 450px;
+  display: flex;
 }
 
 .ContainerSortButton {
-  width: 15%;
+  flex: 0 0 15%;
 }
 
 .Container {
