@@ -9,7 +9,6 @@ function ButtonHideJPG() {
 }
 
 const list = document.getElementById("ContainerId");
-console.log("ListItems: ", list);
 const sortButton = document.getElementById("ContainerSortButton");
 
 sortButton.addEventListener("click", SortingList);
