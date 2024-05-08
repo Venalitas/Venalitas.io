@@ -25,6 +25,7 @@ img {
   max-height: 30px;
   display: flex;
   margin: 0px;
+  text-align: center
 }
 
 .ContainerSortButton {
