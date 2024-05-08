@@ -8,18 +8,18 @@ function ButtonHideJPG() {
   }
 }
 
-const list = document.getElementById("container");
-const sortButton = document.getElementById("container-sort-button");
+const list = document.getElementById("Container");
+const sortButton = document.getElementById("ContainerSortButton");
 
 sortButton.addEventListener("click", SortingList());
 
 function SortingList() {
-  const listItems = list.querySelectorAll(".item-container");
+  const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
 
   function compareNames (a, b) {
-    const nameA = a.querySelector(".item-text-name").textContent;
-    const nameB = b.querySelector(".item-text-name").textContent;
+    const nameA = a.querySelector(".ItemTextName").textContent;
+    const nameB = b.querySelector(".ItemTextName").textContent;
     return nameA.localeCompare(nameB); // Locale-aware comparison
   }
   
@@ -27,7 +27,7 @@ function SortingList() {
 
   // Clear the list content and re-populate with sorted elements (same as before)
   list.innerHTML = "";
-  itemsArray.forEach(function(item-container) {
-    list.appendChild(item-container);
+  itemsArray.forEach(function(ItemContainer) {
+    list.appendChild(ItemContainer);
   });
 }
