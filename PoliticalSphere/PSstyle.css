@@ -18,8 +18,8 @@ img {
 .ButtonBar {
   display: flex;
   text-align: center;
-  front-weight: 300px;
-  border: 10px;
+  front-height: 300px;
+  border: 10px dotted red;
   min-width: 150px;
 }
 
