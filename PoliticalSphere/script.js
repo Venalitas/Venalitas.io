@@ -1,4 +1,9 @@
 function ButtonHideJPG() {
   const image = document.getElementById("14SAZalesshema");
-  image.style.display = "none";
+  if (image.style.display == "none"){
+    image.style.display = flex;
+  }
+  else {
+    image.style.display = "none";
+  }
 }
