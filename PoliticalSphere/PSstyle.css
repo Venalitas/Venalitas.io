@@ -8,27 +8,27 @@ img {
   height: auto;
 }
 
-.container-header {
+.ContainerHeader {
   max-width: 100%;
   text-align: center;
   font-weight: bold;
   border: 2px solid black;
 }
 
-.container {
+.Container {
   max-width: 100%;
   display: block;
   border: 2px solid black;
   padding: 0px;
 }
 
-.item-container {
+.ItemContainer {
   display: flex;
   border: 2px dotted black;
   padding: 16px;
 }
 
-.item-photo {
+.ItemPhoto {
   flex: 0 0 15%;
   border: none;
   padding: none;
@@ -37,14 +37,14 @@ img {
   object-fit: contain;
 }
 
-.item-text {
+.ItemText {
   flex: 1;
   border: 10px;
   padding: 16px;
   border: 2px dashed black;
 }
 
-.item-text-name {
+.ItemTextName {
   display: block;
   font-weight: bold;
   font-size: 20px;
@@ -52,7 +52,7 @@ img {
   padding: 16px;
 }
 
-.item-text-info {
+.ItemTextInfo {
   flex: 1;
   border: 10px;
   padding: 16px;
