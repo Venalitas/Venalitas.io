@@ -22,7 +22,6 @@ img {
 .ButtonBar {
   justify-content: center;
   max-height: 40px;
-  min-width: 200px;
   display: flex;
   text-align: center;
   border: 2px solid red;
@@ -30,6 +29,7 @@ img {
 
 .ContainerSortButton {
   flex: 1;
+  min-width: 200px;
 }
 
 .Container {
