@@ -27,7 +27,11 @@ img {
 }
 
 #ContainerSortButtonJV {
-  min-width: 200px;
+  min-width: 60px;
+}
+
+#ContainerSortButton {
+  min-width: 60px;
 }
 
 .Container {
