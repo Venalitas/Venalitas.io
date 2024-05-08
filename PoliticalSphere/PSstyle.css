@@ -12,13 +12,13 @@ img {
   width: 100%;
   text-align: center;
   font-weight: bold;
-  border: 2px dotted black;
+  border: 2px solid black;
 }
 
 .container {
   width: 100%;
   display: block;
-  border: 2px dotted black;
+  border: 2px solid black;
 }
 
 .item-container {
@@ -37,6 +37,7 @@ img {
   flex: 0 0 85%;
   border: 10px;
   padding: 16px;
+  border: 2px dashed black;
 }
 
 
