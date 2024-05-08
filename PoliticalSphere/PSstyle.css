@@ -21,8 +21,8 @@ img {
 }
 
 .ButtonBar {
-  text-align: center;
-  front-height: 300px;
+  justify-content: center;
+  max-height: 100px;
   border: 10px dotted red;
   min-width: 450px;
   display: flex;
