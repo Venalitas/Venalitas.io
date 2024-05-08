@@ -37,8 +37,15 @@ img {
   display: block;
 }
 
-.item-text-name {
+.item-text {
   flex: 1;
+  border: 10px;
+  padding: 16px;
+  border: 2px dashed black;
+}
+
+.item-text-name {
+  display: block;
   border: 10px;
   padding: 16px;
 }
