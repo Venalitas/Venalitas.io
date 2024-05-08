@@ -8,7 +8,7 @@ function ButtonHideJPG() {
   }
 }
 
-const list = document.querySelectorAll("Container");
+const list = document.getElementById("Container");
 console.log("ListItems: ", list);
 const sortButton = document.getElementById("ContainerSortButton");
 
