@@ -10,10 +10,14 @@ img {
 
 .ContainerHeader {
   max-width: 100%;
+  border: 2px solid black;
+  display: block;
+}
+
+.ContainerHeaderText {
+  min-width: 15%;
   text-align: center;
   font-weight: bold;
-  border: 2px solid black;
-  display: flex;
 }
 
 .ButtonBar {
