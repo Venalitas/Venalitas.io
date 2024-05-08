@@ -13,6 +13,7 @@ img {
   text-align: center;
   font-weight: bold;
   border: 2px solid black;
+  display: flex;
 }
 
 .ButtonBar {
@@ -20,7 +21,7 @@ img {
   text-align: center;
   front-height: 300px;
   border: 10px dotted red;
-  min-width: 150px;
+  min-width: 450px;
 }
 
 .ContainerSortButton {
