@@ -23,7 +23,7 @@ img {
 
 .item-container {
   display: flex;
-  border: 10px;
+  border: none;
   padding: 16px;
 }
 
