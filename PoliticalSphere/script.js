@@ -8,14 +8,14 @@ function ButtonHideJPG() {
   }
 }
 
-const list = document.getElementById("Container");
+const list = document.querySelectorAll("Container");
 console.log("ListItems: ", list);
 const sortButton = document.getElementById("ContainerSortButton");
 
 sortButton.addEventListener("click", SortingList);
 
 function SortingList() {
-  const listItems = list.querySelectorAll("li");
+  const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
 
   function compareNames (a, b) {
