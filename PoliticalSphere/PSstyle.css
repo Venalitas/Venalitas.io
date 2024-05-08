@@ -15,7 +15,6 @@ img {
 }
 
 .ContainerHeaderText {
-  min-width: 15%;
   text-align: center;
   font-weight: bold;
 }
@@ -29,7 +28,7 @@ img {
 }
 
 .ContainerSortButton {
-  min-width: 200px;
+  min-width: 250px;
   border: none;
   background-color: #cff3fc;
   cursor: pointer;
