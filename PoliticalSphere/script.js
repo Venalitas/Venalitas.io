@@ -14,7 +14,7 @@ const sortButton = document.getElementById("ContainerSortButton");
 sortButton.addEventListener("click", SortingList);
 
 function SortingList() {
-  const listItems = list.querySelectorAll(".ItemContainer");
+  const listItems = list.querySelectorAll(".Container");
   console.log("ListItems: ", listItems);
   const itemsArray = Array.from(listItems);
 
