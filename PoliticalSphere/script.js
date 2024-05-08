@@ -11,13 +11,13 @@ function ButtonHideJPG() {
 const list = document.getElementById("container");
 const sortButton = document.getElementById("container-sort-button");
 
-sortButton.addEventListener("click", SortingList() {
+sortButton.addEventListener("click", SortingList());
+
+function SortingList() {
   const listItems = list.querySelectorAll(".item-container");
   const itemsArray = Array.from(listItems);
 
-  
-  function compareNames (a, b)
-  {
+  function compareNames (a, b) {
     const nameA = a.querySelector(".item-text-name").textContent;
     const nameB = b.querySelector(".item-text-name").textContent;
     return nameA.localeCompare(nameB); // Locale-aware comparison
