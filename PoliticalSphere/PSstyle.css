@@ -15,6 +15,14 @@ img {
   border: 2px solid black;
 }
 
+.ButtonBar {
+  display: flex;
+}
+
+.ContainerSortButton {
+  flex: 1;
+}
+
 .Container {
   max-width: 100%;
   display: block;
