@@ -37,7 +37,8 @@ function SortingListPartyJV() {
 
   for (let i=0; i<itemsArray.length; i++){
     if (itemsArray[i].querySelector(".ItemTextParty").textContent == "Jaunā Vienotība"){
-      console.log("elements of the Array: ", itemsArray[i].querySelector(".ItemTextParty").textContent);
+      tmpArray.push(itemsArray[i]);
     }
   }
+  console.log("elements of the tmpArray: ", tmpArray;
 }
