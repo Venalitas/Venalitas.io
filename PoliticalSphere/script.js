@@ -39,6 +39,9 @@ function SortingListPartyJV() {
     if (itemsArray[i].querySelector(".ItemTextParty").textContent == "Jaunā Vienotība"){
       tmpArray.push(itemsArray[i]);
     }
+    else {
+      itemsArray[i].style.display = "none";
+    }
   }
   console.log("elements of the tmpArray: ", tmpArray);
 }
