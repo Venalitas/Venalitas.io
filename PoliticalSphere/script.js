@@ -36,14 +36,21 @@ function SortingListPartyJV() {
 
   list.innerHTML = "";
   for (let i=0; i<itemsArray.length; i++){
-    if (itemsArray[i].querySelector(".ItemTextParty").textContent =/= "Jaunā Vienotība"){
+    if (itemsArray[i].querySelector(".ItemTextParty").textContent != "Jaunā Vienotība"){
       itemsArray[i].style.display = "none";
     }
     list.appendChild(itemsArray[i]);
-    console.log("I did it: ", i);
   }
 }
 
 function SortingListReset() {
-  
+  const listItems = list.querySelectorAll(".ItemContainer");
+  const itemsArray = Array.from(listItems);
+
+  list.innerHTML = "";
+  for (let i=0; i<itemsArray.length; i++){
+    itemsArray[i].style.display = "";
+
+    list.appendChild(itemsArray[i]);
+  }
 }
