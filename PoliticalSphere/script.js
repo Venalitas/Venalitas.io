@@ -11,6 +11,18 @@ function ButtonHideJPG() {
 const list = document.getElementById("ContainerId");
 const sortButton = document.getElementById("ContainerSortButton");
 
+function SortingListReset() {
+  const listItems = list.querySelectorAll(".ItemContainer");
+  const itemsArray = Array.from(listItems);
+
+  list.innerHTML = "";
+  for (let i=0; i<itemsArray.length; i++){
+    itemsArray[i].style.display = "";
+
+    list.appendChild(itemsArray[i]);
+  }
+}
+
 function SortingListAZ() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
@@ -33,6 +45,7 @@ function SortingListAZ() {
 function SortingListPartyJV() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
+  SortingListReset();
 
   list.innerHTML = "";
   for (let i=0; i<itemsArray.length; i++){
@@ -43,21 +56,10 @@ function SortingListPartyJV() {
   }
 }
 
-function SortingListReset() {
-  const listItems = list.querySelectorAll(".ItemContainer");
-  const itemsArray = Array.from(listItems);
-
-  list.innerHTML = "";
-  for (let i=0; i<itemsArray.length; i++){
-    itemsArray[i].style.display = "";
-
-    list.appendChild(itemsArray[i]);
-  }
-}
-
 function SortingListPartyAS() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
+  SortingListReset();
 
   list.innerHTML = "";
   for (let i=0; i<itemsArray.length; i++){
@@ -71,6 +73,7 @@ function SortingListPartyAS() {
 function SortingListPartyLPV() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
+  SortingListReset();
 
   list.innerHTML = "";
   for (let i=0; i<itemsArray.length; i++){
