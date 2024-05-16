@@ -30,3 +30,10 @@ function SortingListAZ() {
   });
 }
 
+function SortingListPartyJV() {
+  const listItems = list.querySelectorAll(".ItemContainer");
+  const itemsArray = Array.from(listItems);
+
+  print ("listItems.lenght: ", listItems.lenght);
+
+}
