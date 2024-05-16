@@ -33,7 +33,9 @@ function SortingListAZ() {
 function SortingListPartyJV() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
+  const tmpArray = [];
 
-  console.log("itemsArray.length: ", itemsArray.length);
-
+  for (let i=0; i<itemsArray.length; i++){
+    console.log("elements of the Array: ", itemsArray[i]);
+  }
 }
