@@ -40,5 +40,5 @@ function SortingListPartyJV() {
       tmpArray.push(itemsArray[i]);
     }
   }
-  console.log("elements of the tmpArray: ", tmpArray;
+  console.log("elements of the tmpArray: ", tmpArray);
 }
