@@ -34,6 +34,31 @@ img {
   min-width: 60px;
 }
 
+#ContainerSortButtonS {
+  min-width: 60px;
+}
+#ContainerSortButtonP {
+  min-width: 60px;
+}
+#ContainerSortButtonLPV {
+  min-width: 60px;
+}
+#ContainerSortButtonZZS {
+  min-width: 60px;
+}
+#ContainerSortButtonAS {
+  min-width: 60px;
+}
+#ContainerSortButtonNA {
+  min-width: 60px;
+}
+#ContainerSortButtonCiti {
+  min-width: 60px;
+}
+#ContainerSortButtonReset {
+  min-width: 60px;
+}
+
 .Container {
   max-width: 100%;
   display: block;
