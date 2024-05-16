@@ -31,3 +31,14 @@ function SortingListAZ() {
     list.appendChild(ItemContainer);
   });
 }
+
+const sortButtonJV = document.getElementById("ContainerSortButtonJV");
+sortButton.addEventListener("click", SortingListPartyJV);
+
+function SortingListPartyJV() {
+  const listItems = list.querySelectorAll(".ItemContainer");
+  const itemsArray = [];
+
+  for len(listItems):
+  print("yeah");
+}
