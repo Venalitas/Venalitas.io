@@ -35,6 +35,7 @@ function SortingListPartyJV() {
   const itemsArray = Array.from(listItems);
   const tmpArray = [];
 
+  list.innerHTML = "";
   for (let i=0; i<itemsArray.length; i++){
     if (itemsArray[i].querySelector(".ItemTextParty").textContent == "Jaunā Vienotība"){
       tmpArray.push(itemsArray[i]);
@@ -42,6 +43,7 @@ function SortingListPartyJV() {
     else {
       itemsArray[i].style.display = "none";
     }
-  }
-  console.log("elements of the tmpArray: ", tmpArray);
+    list.push(itemsArray[i]);
+    console.log("I did it: ", i);
+  }  
 }
