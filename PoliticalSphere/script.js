@@ -34,6 +34,6 @@ function SortingListPartyJV() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
 
-  console.log("listItems.lenght: ", listArray.lenght);
+  console.log("itemsArray.lenght: ", itemsArray.lenght);
 
 }
