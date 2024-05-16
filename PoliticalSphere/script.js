@@ -43,7 +43,7 @@ function SortingListPartyJV() {
     else {
       itemsArray[i].style.display = "none";
     }
-    list.push(itemsArray[i]);
+    list.appendChild(itemsArray[i]);
     console.log("I did it: ", i);
   }  
 }
