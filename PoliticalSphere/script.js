@@ -54,3 +54,29 @@ function SortingListReset() {
     list.appendChild(itemsArray[i]);
   }
 }
+
+function SortingListPartyAS() {
+  const listItems = list.querySelectorAll(".ItemContainer");
+  const itemsArray = Array.from(listItems);
+
+  list.innerHTML = "";
+  for (let i=0; i<itemsArray.length; i++){
+    if (itemsArray[i].querySelector(".ItemTextParty").textContent != "Apvienotais Saraksts"){
+      itemsArray[i].style.display = "none";
+    }
+    list.appendChild(itemsArray[i]);
+  }
+}
+
+function SortingListPartyLPV() {
+  const listItems = list.querySelectorAll(".ItemContainer");
+  const itemsArray = Array.from(listItems);
+
+  list.innerHTML = "";
+  for (let i=0; i<itemsArray.length; i++){
+    if (itemsArray[i].querySelector(".ItemTextParty").textContent != "Latvija Pirmajā Vietā"){
+      itemsArray[i].style.display = "none";
+    }
+    list.appendChild(itemsArray[i]);
+  }
+}
