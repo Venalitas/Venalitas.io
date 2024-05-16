@@ -11,8 +11,6 @@ function ButtonHideJPG() {
 const list = document.getElementById("ContainerId");
 const sortButton = document.getElementById("ContainerSortButton");
 
-sortButton.addEventListener("click", SortingListAZ);
-
 function SortingListAZ() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
