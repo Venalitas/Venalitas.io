@@ -33,17 +33,17 @@ function SortingListAZ() {
 function SortingListPartyJV() {
   const listItems = list.querySelectorAll(".ItemContainer");
   const itemsArray = Array.from(listItems);
-  const tmpArray = [];
 
   list.innerHTML = "";
   for (let i=0; i<itemsArray.length; i++){
-    if (itemsArray[i].querySelector(".ItemTextParty").textContent == "Jaunā Vienotība"){
-      tmpArray.push(itemsArray[i]);
-    }
-    else {
+    if (itemsArray[i].querySelector(".ItemTextParty").textContent =/= "Jaunā Vienotība"){
       itemsArray[i].style.display = "none";
     }
     list.appendChild(itemsArray[i]);
     console.log("I did it: ", i);
-  }  
+  }
+}
+
+function SortingListReset() {
+  
 }
